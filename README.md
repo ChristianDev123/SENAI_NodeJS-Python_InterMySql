@@ -1,24 +1,37 @@
-
 # Conexão Com BD MySql e Node
-Tratando Dados do excel e enviando para o banco de dados 
 
+Este programa trata dados do excel e envia para um banco de dados MySQL.
 
-## Tecnologias
+## Como instalar localmente:
+
+Siga os seguintes passos utilizando o CMD do Windows ou Bash do Linux:
+
+```cmd
+    git clone https://github.com/ChristianDev123/SENAI_NodeJS-Python_InterMySql.git
+```
+```cmd
+    cd SENAI_NodeJS-Python_InterMySql
+```
+```cmd
+    cd "Trabalho interpolador banco de dados"
+```
+```cmd
+    pip install openpyxl
+```
+```cmd
+    python getExcel.py
+```
+```cmd
+    cd ..
+```
+```cmd
+    node index.js
+```
+
+> Certifique-se de que tenha instalado python e node.js.
+
+## Tecnologias utilizadas:
+
 - NodeJS
 - Python
 - Excel
-- Editor:Visual Studio code
-
-
-
-
-
-
-## Objetivo:
-
-Pegar dados de uma tabela no excel transformar
-em json e enviar para o banco de dados
-
-
-
-
